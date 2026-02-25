@@ -139,17 +139,17 @@ public class Bitset {
         }
     }
 
-    public void leftShiftAssign(final int shift) {
-        for (int i = 0; i < size; i++) {
-            bitset[i] <<= shift;
-        }
-    }
-
-    public void rightShiftAssign(final int shift) {
-        for (int i = 0; i < size; i++) {
-            bitset[i] >>>= shift;
-        }
-    }
+//    public void leftShiftAssign(final int shift) {
+//        for (int i = 0; i < size; i++) {
+//            bitset[i] <<= shift;
+//        }
+//    }
+//
+//    public void rightShiftAssign(final int shift) {
+//        for (int i = 0; i < size; i++) {
+//            bitset[i] >>>= shift;
+//        }
+//    }
 
     public int getSize() {
         return bitCount;
